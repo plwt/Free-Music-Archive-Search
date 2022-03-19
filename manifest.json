@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
-    	"name": "GitHub Code Search",
-	"description": "Search GitHub code directly from Firefox.",
+    	"name": "FMA Search",
+	"description": "Search the Free Music Archive directly from Firefox.",
 	"version": "0.1",
 	"applications":{
 		"gecko": {
@@ -13,9 +13,9 @@
 	},
   	"chrome_settings_overrides": {
 		"search_provider": {
-		"name": "GitHub Code Search",
-            	"keyword": "@CS",
-		"search_url": "https://cs.github.com/?scopeName=All+repos&scope=&q={searchTerms}"
+		"name": "FMA Search",
+            	"keyword": "@FMA",
+		"search_url": "https://freemusicarchive.org/search/?quicksearch={searchTerms}"
 		}
 	}
 }
