@@ -1,6 +1,6 @@
 {
 	"manifest_version": 2,
-    	"name": "FMA Search",
+    	"name": "Free Music Archive Search",
 	"description": "Search the Free Music Archive directly from Firefox.",
 	"version": "0.1",
 	"applications":{
@@ -13,7 +13,7 @@
 	},
   	"chrome_settings_overrides": {
 		"search_provider": {
-		"name": "FMA Search",
+		"name": "Free Music Archive Search",
             	"keyword": "@FMA",
 		"search_url": "https://freemusicarchive.org/search/?quicksearch={searchTerms}"
 		}
