@@ -2,7 +2,7 @@
 	"manifest_version": 2,
     	"name": "Free Music Archive Search",
 	"description": "Search the Free Music Archive directly from Firefox.",
-	"version": "0.1",
+	"version": "0.2",
 	"applications":{
 		"gecko": {
 			"strict_min_version": "73.0"
